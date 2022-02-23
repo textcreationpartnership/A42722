@@ -1,0 +1,882 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Gigantomachia, or, A full and true relation of the great and bloody fight between three pagan knights and a Christian gyant</title>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>1682</date>
+            </edition>
+         </editionStmt>
+         <extent>Approx. 22 KB of XML-encoded text transcribed from 11 1-bit group-IV TIFF page images.</extent>
+         <publicationStmt>
+            <publisher>Text Creation Partnership,</publisher>
+            <pubPlace>Ann Arbor, MI ; Oxford (UK) :</pubPlace>
+            <date when="2014-11">2014-11 (EEBO-TCP Phase 2).</date>
+            <idno type="DLPS">A42722</idno>
+            <idno type="STC">Wing G698</idno>
+            <idno type="STC">ESTC R21702</idno>
+            <idno type="EEBO-CITATION">12260772</idno>
+            <idno type="OCLC">ocm 12260772</idno>
+            <idno type="VID">57875</idno>
+            <availability>
+               <p>To the extent possible under law, the Text Creation Partnership has waived all copyright and related or neighboring rights to this keyboarded and encoded edition of the work described above, according to the terms of the CC0 1.0 Public Domain Dedication (http://creativecommons.org/publicdomain/zero/1.0/). This waiver does not extend to any page images or other supplementary files associated with this work, which may be protected by copyright or other license restrictions. Please go to https://www.textcreationpartnership.org/ for more information about the project.</p>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title>Early English books online text creation partnership.</title>
+         </seriesStmt>
+         <notesStmt>
+            <note>(EEBO-TCP ; phase 2, no. A42722)</note>
+            <note>Transcribed from: (Early English Books Online ; image set 57875)</note>
+            <note>Images scanned from microfilm: (Early English books, 1641-1700 ; 916:6)</note>
+         </notesStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title>Gigantomachia, or, A full and true relation of the great and bloody fight between three pagan knights and a Christian gyant</title>
+               </titleStmt>
+               <extent>20 p.   </extent>
+               <publicationStmt>
+                  <publisher>Printed for Richard Janeway,</publisher>
+                  <pubPlace>London :</pubPlace>
+                  <date>1682.</date>
+               </publicationStmt>
+               <notesStmt>
+                  <note>Reproduction of original in Huntington Library.</note>
+                  <note>In verse.</note>
+               </notesStmt>
+            </biblFull>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Created by converting TCP files to TEI P5 using tcp2tei.xsl,
+      TEI @ Oxford.
+      </p>
+         </projectDesc>
+         <editorialDecl>
+            <p>EEBO-TCP is a partnership between the Universities of Michigan and Oxford and the publisher ProQuest to create accurately transcribed and encoded texts based on the image sets published by ProQuest via their Early English Books Online (EEBO) database (http://eebo.chadwyck.com). The general aim of EEBO-TCP is to encode one copy (usually the first edition) of every monographic English-language title published between 1473 and 1700 available in EEBO.</p>
+            <p>EEBO-TCP aimed to produce large quantities of textual data within the usual project restraints of time and funding, and therefore chose to create diplomatic transcriptions (as opposed to critical editions) with light-touch, mainly structural encoding based on the Text Encoding Initiative (http://www.tei-c.org).</p>
+            <p>The EEBO-TCP project was divided into two phases. The 25,368 texts created during Phase 1 of the project (2000-2009), initially available only to institutions that contributed to their creation, were released into the public domain on 1 January 2015. The approximately 40,000 texts produced during Phase 2 (2009- ), of which 34,963 had been released as of 2020, originally similarly restricted, were similarly freed from all restrictions on 1 August 2020. As of that date anyone is free to take and use these texts for any purpose (modify them, annotate them, distribute them, etc.). But we do respectfully request that due credit and attribution be given to their original source.</p>
+            <p>Users should be aware of the process of creating the TCP texts, and therefore of any assumptions that can be made about the data.</p>
+            <p>Text selection was based on the New Cambridge Bibliography of English Literature (NCBEL). If an author (or for an anonymous work, the title) appears in NCBEL, then their works are eligible for inclusion. Selection was intended to range over a wide variety of subject areas, to reflect the true nature of the print record of the period. In general, first editions of a works in English were prioritized, although there are a number of works in other languages, notably Latin and Welsh, included and sometimes a second or later edition of a work was chosen if there was a compelling reason to do so.</p>
+            <p>Image sets were sent to external keying companies for transcription and basic encoding. Quality assurance was then carried out by editorial teams in Oxford and Michigan. 5% (or 5 pages, whichever is the greater) of each text was proofread for accuracy and those which did not meet QA standards were returned to the keyers to be redone. After proofreading, the encoding was enhanced and/or corrected and characters marked as illegible were corrected where possible up to a limit of 100 instances per text. Any remaining illegibles were encoded as &lt;gap&gt;s. Understanding these processes should make clear that, while the overall quality of TCP data is very good, some errors will remain and some readable characters will be marked as illegible. Users should bear in mind that in all likelihood such instances will never have been looked at by a TCP editor.</p>
+            <p>The texts were encoded and linked to page images in accordance with level 4 of the TEI in Libraries guidelines.</p>
+            <p>Copies of the texts have been issued variously as SGML (TCP schema; ASCII text with mnemonic sdata character entities); displayable XML (TCP schema; characters represented either as UTF-8 Unicode or text strings within braces); or lossless XML (TEI P5, characters represented either as UTF-8 Unicode or TEI g elements).</p>
+            <p>Keying and markup guidelines are available at the <ref target="http://www.textcreationpartnership.org/docs/.">Text Creation Partnership web site</ref>.</p>
+         </editorialDecl>
+         <listPrefixDef>
+            <prefixDef ident="tcp"
+                       matchPattern="([0-9\-]+):([0-9IVX]+)"
+                       replacementPattern="http://eebo.chadwyck.com/downloadtiff?vid=$1&amp;page=$2"/>
+            <prefixDef ident="char"
+                       matchPattern="(.+)"
+                       replacementPattern="https://raw.githubusercontent.com/textcreationpartnership/Texts/master/tcpchars.xml#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="eng">eng</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="http://authorities.loc.gov/">
+               <term>Religious satire.</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change>
+            <date>2012-09</date>
+            <label>TCP</label>Assigned for keying and markup</change>
+         <change>
+            <date>2012-09</date>
+            <label>Apex CoVantage</label>Keyed and coded from ProQuest page images</change>
+         <change>
+            <date>2013-03</date>
+            <label>Geremy Carnes</label>Sampled and proofread</change>
+         <change>
+            <date>2013-03</date>
+            <label>Geremy Carnes</label>Text and markup reviewed and edited</change>
+         <change>
+            <date>2014-03</date>
+            <label>pfs</label>Batch review (QC) and XML conversion</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="eng">
+      <front>
+         <div type="title_page">
+            <pb facs="tcp:57875:1" rendition="simple:additions"/>
+            <p>ΓΙΓΑΝΤΟΜΑΧΙΑ. OR A Full, and True RELATION Of the Great and Bloody Fight, BETWEEN Three PAGAN KNIGHTS, AND A CHRISTIAN GYANT.</p>
+            <p>
+               <hi>LONDON,</hi> Printed for <hi>Richard Janeway,</hi> 1682.</p>
+         </div>
+      </front>
+      <body>
+         <div type="poem">
+            <pb facs="tcp:57875:2"/>
+            <pb n="3" facs="tcp:57875:2"/>
+            <head>ΓΙΓΑΝΤΟΜΑΧΙΑ.</head>
+            <lg>
+               <l>OF Monſters fell, and wondrous Wights,</l>
+               <l>Of Tow'rs Inchanted, bloudy Fights,</l>
+               <l>Of ERRANT Knaves, and ERRANT Knights</l>
+               <l>
+                  <hi>I ſhall Compoſe my Ballad;</hi>
+               </l>
+               <l>How a huge Gyant Fierce and Stout,</l>
+               <l>Three Gentle KNIGHTS at once did Rout;</l>
+               <l>Of which, if you the Truth do Doubt,</l>
+               <l>
+                  <hi>The Record's in my Wallet.</hi>
+               </l>
+            </lg>
+            <lg>
+               <l>Contrary to Romantick Rules,</l>
+               <l>By Snatches ſweetly Con'd at Schools,</l>
+               <l>Which always make the biggeſt Fools,</l>
+               <l>
+                  <hi>Truth here takes part with Gyant,</hi>
+               </l>
+               <l>For He the Knight's thick Skulls did Crack,</l>
+               <l>He laid their Honours on the Back,</l>
+               <l>And did their Ribs full rudely Thwack,</l>
+               <l>
+                  <hi>To make their Purſes Plyant.</hi>
+               </l>
+            </lg>
+            <lg>
+               <pb n="4" facs="tcp:57875:3"/>
+               <l>Thou great St. <hi>George,</hi> and <hi>Eglamore,</hi>
+               </l>
+               <l>Thou <hi>Pegaſus,</hi> and <hi>Brigliadore,</hi>
+               </l>
+               <l>With all hard Names that Poets Roar,</l>
+               <l>
+                  <hi>And for their Gods have taken,</hi>
+               </l>
+               <l>
+                  <hi>Merlin</hi> that made the Dee'l an Aſs,</l>
+               <l>
+                  <hi>Bladud-ap-creat-Rud-Hudibraſs,</hi>
+               </l>
+               <l>That through the Air like Owl could paſs,</l>
+               <l>
+                  <hi>And Famous</hi> Fryar Bacon;</l>
+            </lg>
+            <lg>
+               <l>Aſſiſt, Aſſiſt my Mournful Song!</l>
+               <l>Mingle your pow'rful Charms Among,</l>
+               <l>With whiſper'd Numbers, Dark and Strong,</l>
+               <l>
+                  <hi>Whilſt I the Liſts do Enter!</hi>
+               </l>
+               <l>Hence all Profaneneſs! come not Near</l>
+               <l>T' Invade the Sacred Rituals Here,</l>
+               <l>Nor Wine, nor Mony, nor good Cheer,</l>
+               <l>
+                  <hi>To hinder mine Adventure.</hi>
+               </l>
+            </lg>
+            <lg>
+               <l>An Iſle there is, that <hi>Albion</hi> Hight,</l>
+               <l>With Fruits and Flowers, around Bedight,</l>
+               <l>Where Damſel fair, and gentle Knight,</l>
+               <l>
+                  <hi>In every Shade are Playing,</hi>
+               </l>
+               <l>Where <hi>Nightingales</hi> each Tree Adorn,</l>
+               <l>Spurring their Breaſts with watchful Thorn</l>
+               <l>Throughout the Year, where ev'ry Morn</l>
+               <l>
+                  <hi>The Virgins go a</hi> Maying.</l>
+            </lg>
+            <lg>
+               <pb n="5" facs="tcp:57875:3"/>
+               <l>A Town it has, which Fiends Inchant,</l>
+               <l>Where Brideled Furies Roar and Rant,</l>
+               <l>In olden times, hight <hi>Troynovant,</hi>
+               </l>
+               <l>
+                  <hi>But now 'tis</hi> London <hi>Stiled.</hi>
+               </l>
+               <l>Which By full many a Dev'liſh Spell</l>
+               <l>And Brands and Balls fetch'd up from Hell,</l>
+               <l>In its own Cindars Buried Fell,</l>
+               <l>
+                  <hi>Of all its Glory Spoiled.</hi>
+               </l>
+            </lg>
+            <lg>
+               <l>But when <hi>Rome</hi>'s Thrid-bare Plots were Spy'd,</l>
+               <l>Her Charms unravel'd, Knots Unty'd,</l>
+               <l>'Twas gloriouſly Re-edifi'd,</l>
+               <l>
+                  <hi>Far Noblier than by th' Founder;</hi>
+               </l>
+               <l>Bright Turrets in th' Invaded Air,</l>
+               <l>By Negromantick Art they Rear;</l>
+               <l>With Stately Domes, and Houſes Fair,</l>
+               <l>
+                  <hi>Beſprinkling all around Her.</hi>
+               </l>
+            </lg>
+            <lg>
+               <l>Here the Learn'd Sages every Year,</l>
+               <l>In Venerable Furs appear,</l>
+               <l>To chuſe a CHRISTIAN Officer,</l>
+               <l>
+                  <hi>That may provide 'em Juries;</hi>
+               </l>
+               <l>This makes the PAGAN-TORIES Rave,</l>
+               <l>Becauſe their ſtakes they cannot Save;</l>
+               <l>This makes <hi>ROGERO</hi> Strut and Brave,</l>
+               <l>
+                  <hi>With all his Club of Furies.</hi>
+               </l>
+            </lg>
+            <lg>
+               <pb n="6" facs="tcp:57875:4"/>
+               <l>Some Renegado's ſtile you Can,</l>
+               <l>Two Knights, but ne're a Gentleman,</l>
+               <l>Sometimes on the hot Scent they Ran</l>
+               <l>
+                  <hi>A hunting for Promotion,</hi>
+               </l>
+               <l>And now and then for nimble Bounds,</l>
+               <l>Or treading down their Neighbours Grounds,</l>
+               <l>Their Dog-lookt Friends amongſt the Hounds,</l>
+               <l>
+                  <hi>Are Dubd with great Devotion.</hi>
+               </l>
+            </lg>
+            <lg>
+               <l>Such Recreant Knights, accoutred Fine</l>
+               <l>With Sword and Mace, their Steps Incline</l>
+               <l>To a large Houſe, where Sin and Wine</l>
+               <l>
+                  <hi>On equal Tearms are Vended:</hi>
+               </l>
+               <l>Its name I know not, tho' 'tis Sed</l>
+               <l>And thought by moſt, 'twas the Popes-Head,</l>
+               <l>For there like Friends they might be Sped,</l>
+               <l>
+                  <hi>And carefully Attended.</hi>
+               </l>
+            </lg>
+            <lg>
+               <l>The firſt was of as ſtrong a make,</l>
+               <l>As ever Lance in Juſting Brake,</l>
+               <l>Or handled Sword for Ladies Sake,</l>
+               <l>
+                  <hi>In</hi> Turky <hi>or in</hi> Perſy:</l>
+               <l>From Top to Toe, from Head to Heel,</l>
+               <l>He Cas'd himſelf in Burniſh'd Steel;</l>
+               <l>For Yard, a Spear he now does Feel.</l>
+               <l>
+                  <hi>And Mail inſtead of Kerſy.</hi>
+               </l>
+            </lg>
+            <lg>
+               <pb n="7" facs="tcp:57875:4"/>
+               <l>The next that carry'd on the Fight,</l>
+               <l>With ponderous Mace of mickle Might,</l>
+               <l>Was Hangman, Senator, and Knight,</l>
+               <l>
+                  <hi>A ſtrange Three-headed Monſter;</hi>
+               </l>
+               <l>Whom Scandalizing Whigs in Sport,</l>
+               <l>When to their Brethren they Reſort,</l>
+               <l>That he's Ally'd to the <hi>French</hi>-Court,</l>
+               <l>
+                  <hi>By's name's reſemblance Conſter.</hi>
+               </l>
+            </lg>
+            <lg>
+               <l>The <hi>S—f</hi> can't the <hi>L—s</hi> hide,</l>
+               <l>The Knightly Spurs muſt needs be ſpy'd,</l>
+               <l>Tho the Gold-Chain's about 'em ty'd,</l>
+               <l>
+                  <hi>The better to obſcure 'um;</hi>
+               </l>
+               <l>Th' Aſs is an Aſs, tho Cloath'd he Be</l>
+               <l>In the caſt Robes of Majeſtie,</l>
+               <l>Tho his long Ears Beaſts cannot See,</l>
+               <l>
+                  <hi>From trembling to ſecure 'um.</hi>
+               </l>
+            </lg>
+            <lg>
+               <l>The Third, a proper Man 'tis true,</l>
+               <l>But that his Legs did ſtand askew,</l>
+               <l>And both like <hi>Sampſon</hi>'s Foxes grew,</l>
+               <l>
+                  <hi>One this way, that the other;</hi>
+               </l>
+               <l>Nought but their equal Uglineſs,</l>
+               <l>Their equal Shape, and equal Dreſs,</l>
+               <l>Could make th' amaz'd Beholder Gueſs,</l>
+               <l>
+                  <hi>That this to that was Brother.</hi>
+               </l>
+            </lg>
+            <lg>
+               <pb n="8" facs="tcp:57875:5"/>
+               <l>With him I would not enter Strife,</l>
+               <l>Nor try a Fall to ſave my Life,</l>
+               <l>For as a Bone upon a Knife,</l>
+               <l>
+                  <hi>My Legs would ſplit on his-'n:</hi>
+               </l>
+               <l>This may without a ſtretch be Sed;</l>
+               <l>Upon my Neck ſhould he but Tread,</l>
+               <l>He'd certainly cut off my Head,</l>
+               <l>
+                  <hi>Before my Tail were ris'n.</hi>
+               </l>
+            </lg>
+            <lg>
+               <l>Enough of theſe, too much I fear;</l>
+               <l>Now of the Gyant you ſhall hear,</l>
+               <l>That did with Bloud their Chaps beſmear,</l>
+               <l>
+                  <hi>And eke their ſides Bumbaſted;</hi>
+               </l>
+               <l>How on their Skulls he Blows did Rain,</l>
+               <l>And kickt 'um down, and up Again;</l>
+               <l>How with no little Grief and Pain</l>
+               <l>
+                  <hi>They from his Clutches Haſted.</hi>
+               </l>
+            </lg>
+            <lg>
+               <l>His outward Parts were ſomething ſmall;</l>
+               <l>'Twas th' inward Powers that Acted all;</l>
+               <l>Yet tho a Gyant him we call,</l>
+               <l>
+                  <hi>Let not the Tories blame us;</hi>
+               </l>
+               <l>For as cloſe Flames more fiercely Roll,</l>
+               <l>Impriſon'd in a narrow Hole;</l>
+               <l>So 'twas his brave Gygantick SOUL</l>
+               <l>
+                  <hi>Made's Pygmee-Body Famous.</hi>
+               </l>
+            </lg>
+            <lg>
+               <pb n="9" facs="tcp:57875:5"/>
+               <l>All Tory Cloath, and Drapers too,</l>
+               <l>With Fiſt, or elſe with Indigo,</l>
+               <l>He's us'd to die both Black and Blue,</l>
+               <l>
+                  <hi>The beſt in all the Nation;</hi>
+               </l>
+               <l>And leſt his Cuſtomers be found,</l>
+               <l>Some do Suppoſe he has been bound,</l>
+               <l>By heavy Bagg of Hundred Pound,</l>
+               <l>
+                  <hi>To hide his Occupation.</hi>
+               </l>
+            </lg>
+            <lg>
+               <l>This Dragon-firking <hi>Hercules,</hi>
+               </l>
+               <l>This <hi>Cadmus,</hi> This—e'ne what you pleaſe,</l>
+               <l>That direful Monſters quell'd with Eaſe,</l>
+               <l>
+                  <hi>And Dragg'd from horrid Cavern;</hi>
+               </l>
+               <l>The matter few Diſtinguiſh can,</l>
+               <l>Whether he freely thither Ran,</l>
+               <l>Or was Entic'd by a Trepan,</l>
+               <l>
+                  <hi>And Wheedled to the Tavern.</hi>
+               </l>
+            </lg>
+            <lg>
+               <l>Who there Behind the Door ſhould Lurk,</l>
+               <l>But a falſe-misbelieving-Turk,</l>
+               <l>Who thus began the Devils Work,</l>
+               <l>
+                  <hi>With Glaſs faſt claſpt in Clutches.</hi>
+               </l>
+               <l>Ah! Sir-ah! have we got you here?</l>
+               <l>Come Pledge a Health to th' Grand-VISIER,</l>
+               <l>Or elſe with ſpeed my Cimiter,</l>
+               <l>
+                  <hi>Shall make new room for Crutches.</hi>
+               </l>
+            </lg>
+            <lg>
+               <pb n="10" facs="tcp:57875:6"/>
+               <l>Sad was the Chriſtian Champion's caſe;</l>
+               <l>He had nor Battle-axe, nor Mace,</l>
+               <l>Yet Stoutly he took Heart-a-grace,</l>
+               <l>
+                  <hi>And thus Defies the Pagan:</hi>
+               </l>
+               <l>Falſe Recreant Wretch as 'ere did Wield,</l>
+               <l>An unbecoming Lance, or Shield!</l>
+               <l>My head, as ſoon as Knees I'le Yield,</l>
+               <l>
+                  <hi>To your great Bel, and Dragon.</hi>
+               </l>
+            </lg>
+            <lg>
+               <l>
+                  <hi>Jack Adams</hi> ſtruts about the Rooms,</l>
+               <l>And ſwears, and ſinks, and cocks and fumes,</l>
+               <l>That thus one Stubborn Whig preſumes,</l>
+               <l>
+                  <hi>On three Arm'd Knights to Venture;</hi>
+               </l>
+               <l>Sirrah you Dog! d'ee prate, d'ye prate?</l>
+               <l>Muſt Captives then capitulate?</l>
+               <l>Diſpatch; or elſe I'le break your pate,</l>
+               <l>
+                  <hi>And Ramm ye to the Center.</hi>
+               </l>
+            </lg>
+            <lg>
+               <l>No ſooner Said, no ſoner Done,</l>
+               <l>The Fight was inſtantly Begun;</l>
+               <l>A blow he Struck enough to Stun,</l>
+               <l>
+                  <hi>The Stouteſt Knight in</hi> London:</l>
+               <l>Some fav'ring God, or powerful Charm,</l>
+               <l>To ſave a Courteous Knight from harm,</l>
+               <l>I'th' nick came underneath his arm,</l>
+               <l>
+                  <hi>Or there he had been undone.</hi>
+               </l>
+            </lg>
+            <lg>
+               <pb n="11" facs="tcp:57875:6"/>
+               <l>The empty Sword ſlid glancing by;</l>
+               <l>Not ſo our Champion, who muſt try,</l>
+               <l>Bravely to Conquer, or to Dye,</l>
+               <l>
+                  <hi>By hand of miſcreant Heathen;</hi>
+               </l>
+               <l>But ſince he ſaw the War begin,</l>
+               <l>He won't for nothing ſell his skin,</l>
+               <l>But if his reach they come within,</l>
+               <l>
+                  <hi>Hee'l give his Foes a breathing.</hi>
+               </l>
+            </lg>
+            <lg>
+               <l>His Fiſt he bends, and dings it right,</l>
+               <l>At's Worſhip's Face with all his Might,</l>
+               <l>Down on the floor my gentle Knight,</l>
+               <l>
+                  <hi>All in a heap does tumble:</hi>
+               </l>
+               <l>As when one <hi>Mungril</hi> you attack,</l>
+               <l>The yelping Cur your ſteps will track,</l>
+               <l>And raiſe the Pariſh on your back,</l>
+               <l>
+                  <hi>His Friends began to grumble.</hi>
+               </l>
+            </lg>
+            <lg>
+               <l>In our Relation to be brief,</l>
+               <l>Sir <hi>Simon Suck-egg</hi> was the chief,</l>
+               <l>That brought his Brother Fool relief,</l>
+               <l>
+                  <hi>Than all his Fellows madder;</hi>
+               </l>
+               <l>He by his <hi>quondam</hi> HONOURS Swore,</l>
+               <l>By forked Creſt the arms he bore,</l>
+               <l>And by his Miſtreſs, <hi>alias</hi> W—</l>
+               <l>
+                  <hi>To turn him o're the LADDER.</hi>
+               </l>
+            </lg>
+            <lg>
+               <pb n="12" facs="tcp:57875:7"/>
+               <l>But tho his hands were thick, and long,</l>
+               <l>His Weapon ponderous, and ſtrong,</l>
+               <l>And he with Mace laid on ding-dong,</l>
+               <l>
+                  <hi>Yet ſtill our Champion tight-ſtood,</hi>
+               </l>
+               <l>And after many a crabbed Jowle,</l>
+               <l>Putting aſide his weighty Pole,</l>
+               <l>He takes him ore the Jobbernole,</l>
+               <l>
+                  <hi>And down he fetcht poor Knight-hood.</hi>
+               </l>
+            </lg>
+            <lg>
+               <l>In Triumph over them he goes,</l>
+               <l>Thinking he had conquer'd all his Foes,</l>
+               <l>And under his victorious Toes,</l>
+               <l>
+                  <hi>He ſtampt their batter'd Faces;</hi>
+               </l>
+               <l>Sir <hi>Simon's</hi> Beauty went to Pot,</l>
+               <l>That tho in Love he had been hot,</l>
+               <l>His Miſtreſs ſoon reſtore would not,</l>
+               <l>
+                  <hi>Her favours, and good Graces.</hi>
+               </l>
+            </lg>
+            <lg>
+               <l>Beat Death's Alarm upon the Drums!</l>
+               <l>Ware Shanks! Ware Shanks! Sir <hi>Harry</hi> comes;</l>
+               <l>He bit for Anger both his Thumbs,</l>
+               <l>
+                  <hi>And at our Champion yawned;</hi>
+               </l>
+               <l>He like <hi>Alcides</hi> did provide,</l>
+               <l>To guard himſelf on either ſide,</l>
+               <l>When <hi>Hydra</hi>'s Coxcombs multiply'd,</l>
+               <l>
+                  <hi>And two for one were ſpawned.</hi>
+               </l>
+            </lg>
+            <lg>
+               <pb n="13" facs="tcp:57875:7"/>
+               <l>With Corps erect, and Viſage grim,</l>
+               <l>One foot he plants on ſimple <hi>Sim.</hi>
+               </l>
+               <l>Who ſadly growled under him;</l>
+               <l>
+                  <hi>Sir</hi> Bobb <hi>ſupported t'other:</hi>
+               </l>
+               <l>With an undaunted Meen, and Air,</l>
+               <l>His conqu'ring Arms he high does Rear,</l>
+               <l>And for the third Aſſault prepare,</l>
+               <l>
+                  <hi>To drubb their Friend and Brother.</hi>
+               </l>
+            </lg>
+            <lg>
+               <l>So have I ſeen a ſprightly Cat,</l>
+               <l>That purring in a Corner ſat,</l>
+               <l>In Ambuſcade for luſty Rat,</l>
+               <l>
+                  <hi>Sworn Foe to Cheeſe and Bacon;</hi>
+               </l>
+               <l>When two young Mice that frisking out,</l>
+               <l>From a low Port of their Redoubt,</l>
+               <l>By Governours command to ſcout,</l>
+               <l>
+                  <hi>Were in her Clutches taken.</hi>
+               </l>
+            </lg>
+            <lg>
+               <l>Their piercing Shrieks the Fort affright;</l>
+               <l>Out Sallies Ratt, prepar'd to fight,</l>
+               <l>As fierce as any TORY Knight,</l>
+               <l>
+                  <hi>
+                     <g ref="char:V">Ʋ</g>pon her madly falling;</hi>
+               </l>
+               <l>Puſs in two Paws ſhuts captive Mice,</l>
+               <l>To hinder reſcue, or ſurpriſe;</l>
+               <l>With th' other at her Foe does rife,</l>
+               <l>
+                  <hi>And down ſhe Cuffs him ſprawling.</hi>
+               </l>
+            </lg>
+            <lg>
+               <pb n="14" facs="tcp:57875:8"/>
+               <l>Doughty Sir <hi>Hall,</hi> a tiptoe Stands,</l>
+               <l>With mighty Fauchion reard in hands,</l>
+               <l>And Satisfaction demands,</l>
+               <l>
+                  <hi>For both his Friends Miſchances;</hi>
+               </l>
+               <l>He Winks, and then Pel-mel lets drive,</l>
+               <l>Aiming his head in twain to rive;</l>
+               <l>That was the gentleſt Knight alive;</l>
+               <l>
+                  <hi>But flatlong on't it glances.</hi>
+               </l>
+            </lg>
+            <lg>
+               <l>Our Champions Head, and Brains ran round,</l>
+               <l>Down he was ſinking in a ſound,</l>
+               <l>But yet as ſoon's he toucht the ground,</l>
+               <l>
+                  <hi>
+                     <g ref="char:V">Ʋ</g>p leapt he like</hi> Antaeus <note n="(a)" place="margin">Antaeus: <hi>a famous</hi> Moor<g ref="char:EOLhyphen"/>fields <hi>wraſtler, who the oftener he was foil'd the more ſtrength he had.</hi>
+                  </note>
+               </l>
+               <l>The <hi>Turks</hi> arrears he payd him ſoon,</l>
+               <l>Tho he for grace did Importune,</l>
+               <l>And made him ſee more Stars at Noon,</l>
+               <l>
+                  <hi>Than e're did</hi> Galiaeus <note n="(b)" place="margin">Galilaeus <hi>an old Conjurer (kin to</hi> Gadbu<g ref="char:EOLhyphen"/>ry) <hi>that ſaw the ſtars at noon with a ſpying glaſs.</hi>
+                  </note>
+               </l>
+            </lg>
+            <lg>
+               <l>In Vain the Wretch for help dos Bawl,</l>
+               <l>On back, and ſides, and face and all,</l>
+               <l>With Knightly proweſs he does fall,</l>
+               <l>
+                  <hi>And many a truſty greeting;</hi>
+               </l>
+               <l>He laid on Load on empty Crown,</l>
+               <l>Until with a moſt gracious frown,</l>
+               <l>His honour too came Rattling down,</l>
+               <l>
+                  <hi>To give his Friends a meeting.</hi>
+               </l>
+            </lg>
+            <lg>
+               <pb n="15" facs="tcp:57875:8"/>
+               <l>Stout Whig their Noſes gently tweaks,</l>
+               <l>Their Skuls, tho thick, all over breaks,</l>
+               <l>And his juſt Anger on 'em wreaks</l>
+               <l>
+                  <hi>For their Affront Notorious:</hi>
+               </l>
+               <l>He rents their Lace, and Linen pure</l>
+               <l>(Who can ſo ſad a ſight endure?)</l>
+               <l>And Poynt-Crevats, and Garniture</l>
+               <l>
+                  <hi>That made 'em look ſo glorious.</hi>
+               </l>
+            </lg>
+            <lg>
+               <l>Their empty Crowns rung jangling Peals,</l>
+               <l>Their Foe Chimes backward, and reveals</l>
+               <l>The Fire that their warm Ear conceals</l>
+               <l>
+                  <hi>Whilſt they're in woful pickle:</hi>
+               </l>
+               <l>Had you but ſeen 'em how they Sat,</l>
+               <l>Spoil'd of their Cloak, and Band, and Hat,</l>
+               <l>You would conclude they had been at</l>
+               <l>
+                  <hi>A</hi> Briſtow-<hi>Conventicle.</hi>
+               </l>
+            </lg>
+            <lg>
+               <l>Now on the Floor their Corps he ſpreads,</l>
+               <l>Now on their Neck in Tryumph treads,</l>
+               <l>Then diſoblig'd their LOGGERHEADS,</l>
+               <l>
+                  <hi>Jumbling them all together,</hi>
+               </l>
+               <l>And if they once but Curſt, or Frown'd,</l>
+               <l>He roll'd em round, and round, and round,</l>
+               <l>Trayling their Cloaths about the Ground</l>
+               <l>
+                  <hi>They knew not how nor whether.</hi>
+               </l>
+            </lg>
+            <lg>
+               <pb n="16" facs="tcp:57875:9"/>
+               <l>Sometimes on their Fat Guts he jumps,</l>
+               <l>Sometimes their Paunches rudely thumps,</l>
+               <l>And on their Heads makes Egg-like bumps,</l>
+               <l>
+                  <hi>Whilſt their poor Pates were addled;</hi>
+               </l>
+               <l>Now he their Jaws accoſts with hand,</l>
+               <l>Now on his Legg prepar'd did ſtand,</l>
+               <l>To give their Tails a REPRIMAND,</l>
+               <l>
+                  <hi>And now their ſides he ſwadled.</hi>
+               </l>
+            </lg>
+            <lg>
+               <l>Still he lets Drive his furious Blows,</l>
+               <l>Untill at laſt, as moſt ſuppoſe,</l>
+               <l>The reverent-Sirs affront his Noſe,</l>
+               <l>
+                  <hi>With PARACELSIAN Civet;</hi> 
+                  <note n="(c)" place="margin">
+                     <hi>A T—d they did!</hi>
+                  </note>
+               </l>
+               <l>So crafty REYNARD now and then,</l>
+               <l>When outed by intruding men,</l>
+               <l>Be-ſ—the cleanly Badgers Den,</l>
+               <l>
+                  <hi>To make its Land-Lord leave it.</hi>
+               </l>
+            </lg>
+            <lg>
+               <l>The TORYS their bang'd ſides bemoan,</l>
+               <l>They ſadly yelp <hi>O hone! O hone!</hi>
+               </l>
+               <l>And with full many a dolorous Groan,</l>
+               <l>
+                  <hi>Hold up their Paws for pity.</hi>
+               </l>
+               <l>Sir <hi>Bobb</hi> and <hi>Hal</hi> did deeply yell,</l>
+               <l>But who his direful Plaints can tell,</l>
+               <l>That was, while it ſeem'd good to Hell,</l>
+               <l>
+                  <hi>A Burden to the City.</hi>
+               </l>
+            </lg>
+            <lg>
+               <pb n="17" facs="tcp:57875:9"/>
+               <l>
+                  <hi>Thirteen-Pence-Half-penny</hi> hee'd beſtow</l>
+               <l>With generous Fiſt on Conqu'ring Foe,</l>
+               <l>If he'd be pleas'd to let him go</l>
+               <l>
+                  <hi>But for one livelong Moment;</hi>
+               </l>
+               <l>But ſince ſome wiſer are than ſome,</l>
+               <l>Our Champion threatens with a Drum</l>
+               <l>Beating before to kick 'em home;</l>
+               <l>
+                  <hi>Although he never ſo meant.</hi>
+               </l>
+            </lg>
+            <lg>
+               <l>As ſoon as they had ſtrength to riſe,</l>
+               <l>For Crick in Neck, in Back, in Thighs,</l>
+               <l>They lookt about to find their Eyes,</l>
+               <l>
+                  <hi>Thinking he'd beat 'em all out;</hi>
+               </l>
+               <l>So have I ſeen a maimed Snail,</l>
+               <l>When by rude Heels its Rampires fail,</l>
+               <l>Dragging along its ſlimy Tail,</l>
+               <l>
+                  <hi>From thence attempt to crawl out.</hi>
+               </l>
+            </lg>
+            <lg>
+               <l>The Chriſtian had a Noble Soul,</l>
+               <l>And when he ſaw 'em thus condole,</l>
+               <l>He grants 'em Freedom on Parole,</l>
+               <l>
+                  <hi>While Fame his Glory raiſes;</hi>
+               </l>
+               <l>This Tell-tale Goddeſs had a Spy</l>
+               <l>That brought her word immediately;</l>
+               <l>About the City ſhe does flye,</l>
+               <l>
+                  <hi>And Trumpets out his Praiſes.</hi>
+               </l>
+            </lg>
+            <lg>
+               <pb n="18" facs="tcp:57875:10"/>
+               <l>Of TORY Champions, fierce and ſtout,</l>
+               <l>
+                  <hi>London</hi> and <hi>England</hi> all throughout,</l>
+               <l>She the Atchievements ſpreads about,</l>
+               <l>
+                  <hi>And of their Valour Tattles;</hi>
+               </l>
+               <l>But with ſlye Malice chiefly ſhe</l>
+               <l>Does magnifie their COURTESIE,</l>
+               <l>When they to odds muſt yield or flee,</l>
+               <l>
+                  <hi>In ſuch unequal Battels.</hi>
+               </l>
+            </lg>
+            <lg>
+               <l>For when, by unexpected Chance,</l>
+               <l>One did againſt all Three advance,</l>
+               <l>They yielded out of Complaiſance,</l>
+               <l>
+                  <hi>And took a Civil Drubbing.</hi>
+               </l>
+               <l>But ſince, although Cock-ſure, they fail,</l>
+               <l>And Three to One could not prevail,</l>
+               <l>This did the Hot-ſpur Courage quail</l>
+               <l>
+                  <hi>Of poor Heroick</hi> Robin.</l>
+            </lg>
+            <lg>
+               <l>Fame's a damn'd Whig they fret and cry,</l>
+               <l>(Screwing their Mouths up to their Eye)</l>
+               <l>If e're we meet her ſhe ſhall dye;</l>
+               <l>
+                  <hi>Kiſs and tell! Out upon her!</hi>
+               </l>
+               <l>Fortune we find's a fickle Whore,</l>
+               <l>We'll never truſt the Gypſie more:</l>
+               <l>(Thus like a Bittern they did roar)</l>
+               <l>
+                  <hi>Our Honour! O our Honour!</hi>
+               </l>
+            </lg>
+            <lg>
+               <pb n="19" facs="tcp:57875:10"/>
+               <l>Their Friends adviſe 'em to Compound.</l>
+               <l>If luſty Dyer may be found,</l>
+               <l>And get him unto ſilence bound,</l>
+               <l>
+                  <hi>Although he hard to win is;</hi>
+               </l>
+               <l>With ſenſe profound they gravely ſay,</l>
+               <l>'Twould be the beſt and ſafeſt way,</l>
+               <l>To lock his Lips with Silver Kay,</l>
+               <l>
+                  <hi>Or gag his Mouth with Guinies.</hi>
+               </l>
+            </lg>
+            <lg>
+               <l>'Twas ſpoke, and inſtantly 'twas done;</l>
+               <l>Whilſt they their Pockets rummage, one</l>
+               <l>To every Coffee-Houſe does run,</l>
+               <l>
+                  <hi>To find Victorious DYER;</hi>
+               </l>
+               <l>They reaſon'd on the point, and he</l>
+               <l>Becauſe they're Friends won't Diſagree,</l>
+               <l>But out of meer CIVILITIE</l>
+               <l>
+                  <hi>He grants 'em their Deſire.</hi>
+               </l>
+            </lg>
+            <lg>
+               <l>Elſe how is he ſo chang'd become?</l>
+               <l>He anſwers nothing now but <hi>Mum!</hi>
+               </l>
+               <l>To all Enquirers deaf and dumb,</l>
+               <l>
+                  <hi>Strangely retir'd o'th' ſudden.</hi>
+               </l>
+               <l>Ask him about it, ask again,</l>
+               <l>Tho of his Silence you complain,</l>
+               <l>Yet ſtill you'll ask, and ask in vain;</l>
+               <l>
+                  <hi>For, not a word o'th'</hi> Pudding.</l>
+            </lg>
+            <lg>
+               <pb n="20" facs="tcp:57875:11"/>
+               <l>There's your true Spaniels for you, Sirs;</l>
+               <l>Kick 'em, they'll love you ne're the worſe,</l>
+               <l>But, like Good-Chriſtian-Honeſt-Curs,</l>
+               <l>
+                  <hi>Or Women of</hi> Moſcovy,</l>
+               <l>The longer Cudgel one provides,</l>
+               <l>To exerciſe their Back and Sides,</l>
+               <l>The longer their Good-will abides,</l>
+               <l>
+                  <hi>And they'll the longer love ye.</hi>
+               </l>
+            </lg>
+            <lg>
+               <l>But, <hi>Tories,</hi> take a Friend's Advice,</l>
+               <l>Well-willer to your NOSE and EYES,</l>
+               <l>That never lik'd this Enterprize,</l>
+               <l>
+                  <hi>To</hi> Whig-land <hi>ſo delighting:</hi>
+               </l>
+               <l>Drink for the DUKE while you can ſtand,</l>
+               <l>Chaſe all Phanaticks round the Land,</l>
+               <l>With Glaſſes ready charg'd in Hand;</l>
+               <l>
+                  <hi>But pray take heed of</hi> Fighting.</l>
+            </lg>
+            <trailer>FINIS.</trailer>
+         </div>
+      </body>
+   </text>
+</TEI>
